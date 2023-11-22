@@ -33,6 +33,13 @@
       <version>${spring.version}</version>
     </dependency>
 
+    <!-- Java Servlet 相關的庫 -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version> <!-- 可以根據需要調整版本號 -->
+      <scope>provided</scope>
+    </dependency>
   </dependencies>
   <build>
     <finalName>carTalk</finalName>
