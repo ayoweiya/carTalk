@@ -13,13 +13,12 @@ import org.springframework.web.servlet.HandlerExceptionResolver;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.*;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
-
 import java.util.List;
 
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = "com.wewe.controller")
-public class MvcConfig implements WebMvcConfigurer {
+public class WebMvcConfig implements WebMvcConfigurer {
 
     @Bean
     public ViewResolver viewResolver() {
